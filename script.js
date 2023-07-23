@@ -5,11 +5,14 @@ function hasKey(key) {
 	sampleObject.map((item) =>{
 		if(key==item)
 			return true;
+	
 	})
 
 	return false;
 }
 
+
+
 // Do not change the code below
 // const key = prompt("Enter Key.");
-// alert(hasKey(key));
+alert(hasKey("red"));
